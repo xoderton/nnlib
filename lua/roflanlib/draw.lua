@@ -37,7 +37,7 @@ function draw.RotatedBox(cornerRadius, x, y, w, h, color, angle)
   render.PushFilterMin(TEXFILTER.ANISOTROPIC)
 
   cam.PushModelMatrix(m)
-  draw.RoundedBox(cornerRadius, x, y, w, h, color_black)
+  draw.RoundedBox(cornerRadius, x, y, w, h, color)
   cam.PopModelMatrix()
 
   render.PopFilterMag()
