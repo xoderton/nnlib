@@ -1,2 +1,2 @@
-# nnlib
-Non-Named Library.
+# roflanlib
+Generic Library for Garry's Mod.
